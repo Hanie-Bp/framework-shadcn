@@ -85,7 +85,7 @@ const Nav = () => {
 
         <div className="hidden lg:flex  items-center space-x-6">
           <DropdownMenu>
-            <DropdownMenuTrigger className="text-gray-700 hover:text-black flex items-center">
+            <DropdownMenuTrigger className=" flex items-center">
               Features{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -110,13 +110,13 @@ const Nav = () => {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <a href="#" className="text-gray-700 hover:text-black">
+          <a href="#">
             About
           </a>
-          <a href="#" className="text-gray-700 hover:text-black">
+          <a href="#">
             Blog
           </a>
-          <a href="#" className="text-gray-700 hover:text-black">
+          <a href="#">
             Contact
           </a>
         </div>
