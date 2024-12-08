@@ -13,10 +13,6 @@ const Nav = () => {
     <header>
       <nav className="container w-10/12 mx-auto flex items-center justify-between  py-4">
         <div className="block lg:hidden">
-          {/* <button className="flex items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down relative top-[1px] ml-1 h-3 w-3 transition duration-200 group-data-[state=open]:rotate-180" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
-        </button> */}
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="deafult" className="flex items-center">
@@ -110,15 +106,9 @@ const Nav = () => {
             </DropdownMenuContent>
           </DropdownMenu>
 
-          <a href="#">
-            About
-          </a>
-          <a href="#">
-            Blog
-          </a>
-          <a href="#">
-            Contact
-          </a>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
         </div>
 
         <div className="hidden lg:flex  items-center space-x-4">
