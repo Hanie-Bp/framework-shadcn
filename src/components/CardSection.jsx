@@ -21,7 +21,7 @@ const CardSection = () => {
           consequuntur.
         </p>
       </div>
-      <div className="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {cards?.map((card) => (
           <CardElement key={card.title} data={card} />
         ))}

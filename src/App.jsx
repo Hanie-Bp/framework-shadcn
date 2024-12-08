@@ -1,14 +1,11 @@
 import React from "react";
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import CardSection from "./components/CardSection";
+import Home from "./pages/Home";
+
 
 const App = () => {
   return (
     <>
-      <Nav />
-      <Hero/>
-      <CardSection/>
+      <Home/>
     </>
   );
 };
