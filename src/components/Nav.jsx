@@ -7,6 +7,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import DarkMode from "./DarkMode";
 
 const Nav = () => {
   return (
@@ -75,8 +76,11 @@ const Nav = () => {
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
-        <div className=" font-semibold">
-          Tailwind <span className="font-normal">css</span>
+        <div className="flex items-center gap-x-4">
+          <div className="font-semibold">
+            Tailwind <span className="font-normal">css</span>
+          </div>
+          <DarkMode />
         </div>
 
         <div className="hidden lg:flex  items-center space-x-6">
