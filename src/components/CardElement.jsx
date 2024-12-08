@@ -8,7 +8,7 @@ import {
 
 const CardElement = ({ data: { title, description, img } }) => {
   return (
-    <Card className="flex shadow-none outline-none border-none p-10 hover:shadow-xl ">
+    <Card className="flex shadow-none outline-none border-none p-10 hover:shadow-xl  dark:shadow-gray-800 ">
       <div>
         <img src={img} alt={title} className="w-36" />
       </div>

@@ -11,12 +11,12 @@ const Home = () => {
       <section className="container mx-auto my-10 flex flex-col items-center gap-9">
         <h4>Works with your technologies</h4>
         <div className="flex w-8/12  justify-around">
-          <img src="./src/assets/images/js.png" alt="js" />
-          <img src="./src/assets/images/ts.png" alt="ts" />
-          <img src="./src/assets/images/react.png" alt="react" />
-          <img src="./src/assets/images/redux.png" alt="redux" />
-          <img src="./src/assets/images/tailwind.png" alt="tailwind" />
-          <img src="./src/assets/images/nextjs.png" alt="nextjs" />
+          <img src="./src/assets/images/js.png" alt="js"  className="hover:scale-125"/>
+          <img src="./src/assets/images/ts.png" alt="ts" className="hover:scale-125"/>
+          <img src="./src/assets/images/react.png" alt="react" className="hover:scale-125"/>
+          <img src="./src/assets/images/redux.png" alt="redux" className="hover:scale-125"/>
+          <img src="./src/assets/images/tailwind.png" alt="tailwind" className="hover:scale-125"/>
+          <img src="./src/assets/images/nextjs.png" alt="nextjs" className="hover:scale-125"/>
         </div>
       </section>
 
